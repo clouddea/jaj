@@ -31,10 +31,8 @@ public class 事件 : MonoBehaviour {
     }
 	
 	// Update is called once per frame
-	void Update () {
-
-	}
-    private void FixedUpdate()
+	
+    private void Update()
     {
         if (Input.GetKey(KeyCode.Mouse0))
         {
